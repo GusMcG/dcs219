@@ -9,8 +9,28 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 191.0, 123.0, 905.0, 713.0 ],
+        "rect": [ 365.0, 95.0, 942.0, 752.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 85.0, 255.0, 117.0, 22.0 ],
+                    "text": "lg.random.notes.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 85.0, 213.0, 79.0, 22.0 ],
+                    "text": "lg.midi.in.v01"
+                }
+            },
             {
                 "box": {
                     "id": "obj-4",
@@ -47,8 +67,30 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 191.0, 123.0, 905.0, 713.0 ],
+                        "rect": [ 365.0, 123.0, 942.0, 724.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-5",
+                                    "linecount": 6,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 746.0, 234.0, 150.0, 87.0 ],
+                                    "text": "drag to select all, release, option shift + drag to select all, release, command y\n\ncleans all cords"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-2",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 591.0, 523.0, 150.0, 47.0 ],
+                                    "text": "option click on objects\n\nbrings up help file"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-28",
@@ -79,7 +121,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 523.0, 251.0, 150.0, 47.0 ],
-                                    "text": "Command Y\n\ncleans cords"
+                                    "text": "Command Y\n\ncleans cord"
                                 }
                             },
                             {
@@ -356,6 +398,17 @@
             }
         ],
         "lines": [],
+        "parameters": {
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
         "autosave": 0
     }
 }

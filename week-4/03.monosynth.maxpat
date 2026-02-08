@@ -9,8 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 435.0, 123.0, 905.0, 685.0 ],
+        "rect": [ 365.0, 123.0, 942.0, 724.0 ],
         "boxes": [
+            {
+                "box": {
+                    "color": [ 0.317647, 0.654902, 0.976471, 1.0 ],
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 722.0, 24.0, 91.0, 22.0 ],
+                    "text": "receive velocity"
+                }
+            },
+            {
+                "box": {
+                    "color": [ 0.0, 0.533333, 0.168627, 1.0 ],
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 567.0, 24.0, 76.0, 22.0 ],
+                    "text": "receive pitch"
+                }
+            },
             {
                 "box": {
                     "id": "obj-36",
@@ -286,6 +310,13 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-4", 1 ],
+                    "midpoints": [ 731.5, 129.0, 856.5, 129.0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-13", 0 ],
                     "midpoints": [ 134.5, 615.0, 228.0, 615.0, 228.0, 591.0, 251.5, 591.0 ],
                     "source": [ "obj-10", 0 ]
@@ -335,6 +366,13 @@
                     "midpoints": [ 606.5, 369.0, 375.0, 369.0, 375.0, 279.0, 302.5, 279.0 ],
                     "order": 1,
                     "source": [ "obj-15", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "midpoints": [ 576.5, 129.0, 539.5, 129.0 ],
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -468,17 +506,8 @@
         ],
         "parameters": {
             "obj-10": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
-        "autosave": 0,
-        "patchlinecolor": [ 0.447518749806177, 0.44751863973454, 0.447518668498017, 1.0 ]
+        "autosave": 0
     }
 }
