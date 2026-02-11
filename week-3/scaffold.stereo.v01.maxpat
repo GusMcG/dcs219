@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 365.0, 95.0, 942.0, 752.0 ],
+        "rect": [ 255.0, 142.0, 1000.0, 710.0 ],
         "boxes": [
             {
                 "box": {
@@ -67,7 +67,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 365.0, 123.0, 942.0, 724.0 ],
+                        "rect": [ 255.0, 142.0, 1000.0, 710.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -398,17 +399,6 @@
             }
         ],
         "lines": [],
-        "parameters": {
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
         "autosave": 0
     }
 }
