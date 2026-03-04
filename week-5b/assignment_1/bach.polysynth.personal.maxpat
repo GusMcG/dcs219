@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 255.0, 142.0, 1000.0, 710.0 ],
+        "rect": [ 345.0, 176.0, 1006.0, 674.0 ],
         "boxes": [
             {
                 "box": {
@@ -128,7 +128,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 665.0, 485.0, 50.0, 22.0 ],
-                    "text": "1 1 1 1"
+                    "text": "0 0 0 0"
                 }
             },
             {
@@ -563,14 +563,6 @@
         "parameters": {
             "obj-47": [ "live.tab", "live.tab", 0 ],
             "obj-7": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

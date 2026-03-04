@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 216.0, 164.0, 1000.0, 682.0 ],
+        "rect": [ 345.0, 148.0, 1006.0, 702.0 ],
         "boxes": [
             {
                 "box": {
@@ -67,9 +67,42 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 216.0, 164.0, 1000.0, 682.0 ],
+                        "rect": [ 345.0, 148.0, 1006.0, 702.0 ],
                         "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "linecount": 6,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 292.0, 595.0, 150.0, 87.0 ],
+                                    "text": "Option drag + release + command shift y\n\n\n\nPATCH CORDS"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-4",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 796.0, 410.0, 150.0, 60.0 ],
+                                    "text": "option command v\n\npaste copied subpatchers to update them"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-3",
+                                    "linecount": 4,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 804.0, 584.0, 150.0, 60.0 ],
+                                    "text": "shift drag\n\nput obj inbetween two cords"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-5",
@@ -88,7 +121,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 591.0, 523.0, 150.0, 47.0 ],
+                                    "patching_rect": [ 572.0, 521.0, 150.0, 47.0 ],
                                     "text": "option click on objects\n\nbrings up help file"
                                 }
                             },
