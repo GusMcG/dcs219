@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 255.0, 142.0, 1000.0, 710.0 ],
+        "rect": [ 255.0, 198.0, 1000.0, 654.0 ],
         "boxes": [
             {
                 "box": {
@@ -145,10 +145,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 629.0, 624.0, 35.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out 2"
                 }
             },
@@ -159,10 +155,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 575.0, 624.0, 35.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out 1"
                 }
             },
@@ -228,10 +220,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 175.58333333333331, 676.0, 42.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out~ 1"
                 }
             },
@@ -243,10 +231,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 192.0, 8.0, 28.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "in 1"
                 }
             },
@@ -295,7 +279,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 224.0, 9.0, 174.5, 20.0 ],
+                    "patching_rect": [ 664.0, 0.0, 174.5, 20.0 ],
                     "text": "<in> special in for poly",
                     "textcolor": [ 0.870588, 0.415686, 0.062745, 1.0 ]
                 }
@@ -333,7 +317,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 457.0, 50.0, 297.0, 20.0 ],
+                    "patching_rect": [ 897.0, 41.0, 297.0, 20.0 ],
                     "text": "We're interested in the note_LLLL, always in this form:",
                     "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
                 }
@@ -347,7 +331,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 476.95247524752494, 72.0, 268.0, 17.0 ],
+                    "patching_rect": [ 917.0, 63.0, 268.0, 17.0 ],
                     "text": "[pitch-in-midicents duration velocity note-flag]",
                     "textcolor": [ 0.466667, 0.254902, 0.607843, 1.0 ]
                 }
@@ -361,7 +345,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 476.95247524752494, 35.0, 425.0, 17.0 ],
+                    "patching_rect": [ 917.0, 26.0, 425.0, 17.0 ],
                     "text": "note <voice_number> <MIDI_channel> [<chord_onset> [<NOTE_LLLL>] <chord_flag>]",
                     "textcolor": [ 0.466667, 0.254902, 0.607843, 1.0 ]
                 }
@@ -373,7 +357,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 457.0, 13.0, 317.0, 20.0 ],
+                    "patching_rect": [ 897.0, 4.0, 317.0, 20.0 ],
                     "text": "Playback syntax from bach.roll is always a list in this form:",
                     "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
                 }
@@ -410,7 +394,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 224.0, 40.0, 217.0, 20.0 ],
+                    "patching_rect": [ 664.0, 31.0, 217.0, 20.0 ],
                     "text": "<= Playout (7th outlet) from <bach.roll>",
                     "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
                 }
@@ -510,9 +494,9 @@
             },
             {
                 "box": {
-                    "addpoints": [ 0.0, 0.0, 0, 56.829997959460776, 0.5039400371882822, 0, 97.55864896788269, 0.26204849426086935, 0, 241.52869404669968, 0.2553293021003342, 0, 356.1364273002317, 0.0, 0 ],
+                    "addpoints": [ 0.0, 0.0, 0, 28.335156215629056, 0.5039403001637464, 0, 48.64226038970818, 0.2620486310079413, 0, 120.42501358617055, 0.25532943534107094, 0, 177.56786317019677, 0.0, 0 ],
                     "classic_curve": 1,
-                    "domain": 356.14300537109375,
+                    "domain": 177.57150268554688,
                     "id": "obj-36",
                     "maxclass": "function",
                     "numinlets": 1,
@@ -698,7 +682,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 464.0, 98.0, 426.0, 47.0 ],
+                    "patching_rect": [ 904.0, 89.0, 426.0, 47.0 ],
                     "text": "<= <bach.playkeys> is a simple way to get the info we need to make our own synthesizers. @out t means it will return \"text output\" that we can use in our regular Max objects. Without @out t, we would get an encoded bach list (llll).",
                     "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
                 }
